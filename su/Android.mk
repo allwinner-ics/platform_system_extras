@@ -1,4 +1,4 @@
-ifeq ($(BOARD_USES_ROOT_SU),true)
+ifneq ($(BOARD_USES_ROOT_SU),true)
 
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
